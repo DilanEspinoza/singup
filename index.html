@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Singup</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<div class="container__left">
+				<a href="#" class="logo"><h1>Dilan Espinoza</h1></a>
+				<div class="contaienr__content__left">
+					<h2>Welcome to section of singup</h2>
+				</div>
+				<img src="assets/ilustration.svg" alt="Ilustracion de fondo " />
+			</div>
+
+			<div class="container__right">
+				<h2 class="title">Singup</h2>
+				<form action="" method="">
+					<div class="container__input">
+						<label for="first_name">First Name</label>
+						<input
+							type="text"
+							name="first_name"
+							id="first_name"
+							placeholder="Dilan"
+							required />
+					</div>
+					<div class="container__input">
+						<label for="last_name">Last Name</label>
+						<input
+							type="text"
+							name="last_name"
+							id="last_name"
+							placeholder="Espinoza"
+							required />
+					</div>
+					<div class="container__input">
+						<label for="email">Email</label>
+						<input
+							type="email"
+							name="email"
+							id="email"
+							placeholder="example@gmail.com"
+							required />
+					</div>
+					<div class="container__input">
+						<label for="phone">Phone</label>
+						<input
+							type="tel"
+							name="phone"
+							placeholder="1234567890"
+							id="phone"
+							minlength="10"
+							inputmode="numeric" />
+					</div>
+					<div class="container__input">
+						<label for="password">Password</label>
+						<input type="password" name="password" id="password" required />
+					</div>
+					<div class="container__input">
+						<label for="confirm_password">Confirm Password</label>
+						<input
+							type="password"
+							name="confirm_password"
+							id="confirm_password"
+							minlength="8"
+							maxlength="20"
+							required />
+					</div>
+					<div class="btn">
+						<button type="submit" id="btn__create">Create Account</button>
+					</div>
+				</form>
+			</div>
+		</main>
+	</body>
+</html>
